@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "iron_forging",
+  "version": "1.0.0",
+  "name": "Iron Forging Mod",
+  "description": "A compact and low-load 5x5x5 multiblock iron forging machine.",
+  "authors": [
+    "Antigravity"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/iron_forging/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.ironforging.mod.IronForgingMod"
+    ],
+    "client": [
+      "net.ironforging.mod.client.IronForgingClientMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

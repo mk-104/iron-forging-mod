@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ICI",
+    "CLC",
+    "ICI"
+  ],
+  "key": {
+    "I": "minecraft:iron_block",
+    "C": "minecraft:coal_block",
+    "L": "minecraft:lava_bucket"
+  },
+  "result": {
+    "id": "iron_forging:iron_extractor_core",
+    "count": 1
+  }
+}

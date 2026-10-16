@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "minecraft:block/blast_furnace_side",
+    "metal": "minecraft:block/blast_furnace_side",
+    "top": "minecraft:block/heavy_core",
+    "lava": "minecraft:block/lava_still"
+  },
+  "elements": [
+    {
+      "name": "nozzle_head",
+      "from": [2, 8, 2],
+      "to": [14, 16, 14],
+      "faces": {
+        "up":    { "texture": "#top", "cullface": "up" },
+        "north": { "texture": "#metal" },
+        "south": { "texture": "#metal" },
+        "west":  { "texture": "#metal" },
+        "east":  { "texture": "#metal" },
+        "down":  { "texture": "#metal" }
+      }
+    },
+    {
+      "name": "lava_spout",
+      "from": [4, 0, 4],
+      "to": [12, 8, 12],
+      "faces": {
+        "down":  { "texture": "#lava", "cullface": "down" },
+        "north": { "texture": "#lava" },
+        "south": { "texture": "#lava" },
+        "west":  { "texture": "#lava" },
+        "east":  { "texture": "#lava" }
+      }
+    }
+  ]
+}

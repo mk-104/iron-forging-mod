@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "particle": "minecraft:block/spawner",
+    "spawner": "minecraft:block/spawner",
+    "golem": "iron_forging:block/iron_golem"
+  },
+  "elements": [
+    {
+      "name": "spawner_cage",
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "down":  { "texture": "#spawner", "cullface": "down" },
+        "up":    { "texture": "#spawner", "cullface": "up" },
+        "north": { "texture": "#spawner", "cullface": "north" },
+        "south": { "texture": "#spawner", "cullface": "south" },
+        "west":  { "texture": "#spawner", "cullface": "west" },
+        "east":  { "texture": "#spawner", "cullface": "east" }
+      }
+    },
+    {
+      "name": "mini_golem_head",
+      "from": [5, 5, 5],
+      "to": [11, 11, 11],
+      "faces": {
+        "up":    { "texture": "#golem", "uv": [1.0, 0.0, 2.0, 1.0] },
+        "down":  { "texture": "#golem", "uv": [2.0, 0.0, 3.0, 1.0] },
+        "north": { "texture": "#golem", "uv": [1.0, 1.0, 2.0, 2.25] },
+        "south": { "texture": "#golem", "uv": [3.0, 1.0, 4.0, 2.25] },
+        "west":  { "texture": "#golem", "uv": [0.0, 1.0, 1.0, 2.25] },
+        "east":  { "texture": "#golem", "uv": [2.0, 1.0, 3.0, 2.25] }
+      }
+    }
+  ]
+}

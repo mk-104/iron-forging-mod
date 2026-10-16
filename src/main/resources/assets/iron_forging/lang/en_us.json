@@ -1,0 +1,7 @@
+{
+  "block.iron_forging.iron_extractor_core": "Iron Extractor Core",
+  "block.iron_forging.iron_extractor_dummy": "Iron Extractor Frame",
+  "item.iron_forging.iron_extractor_core": "Iron Extractor Core",
+  "container.iron_forging.iron_extractor": "Iron Extractor",
+  "itemGroup.iron_forging": "Iron Forging"
+}

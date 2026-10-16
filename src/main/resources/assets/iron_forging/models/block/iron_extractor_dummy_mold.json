@@ -1,0 +1,22 @@
+{
+  "textures": {
+    "particle": "minecraft:block/smithing_table_top",
+    "top": "minecraft:block/smithing_table_top",
+    "side": "minecraft:block/blast_furnace_side",
+    "bottom": "minecraft:block/iron_block"
+  },
+  "elements": [
+    {
+      "from": [1, 0, 1],
+      "to": [15, 2.5, 15],
+      "faces": {
+        "down":  { "texture": "#bottom", "cullface": "down" },
+        "up":    { "texture": "#top" },
+        "north": { "texture": "#side" },
+        "south": { "texture": "#side" },
+        "west":  { "texture": "#side" },
+        "east":  { "texture": "#side" }
+      }
+    }
+  ]
+}

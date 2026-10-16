@@ -1,0 +1,7 @@
+{
+  "block.iron_forging.iron_extractor_core": "鉄錬成装置コア",
+  "block.iron_forging.iron_extractor_dummy": "鉄錬成装置フレーム",
+  "item.iron_forging.iron_extractor_core": "鉄錬成装置コア",
+  "container.iron_forging.iron_extractor": "鉄錬成装置",
+  "itemGroup.iron_forging": "鉄錬成Mod"
+}

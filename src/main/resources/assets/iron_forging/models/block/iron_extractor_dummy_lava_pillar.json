@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "minecraft:block/lava_still",
+    "lava": "minecraft:block/lava_still"
+  },
+  "elements": [
+    {
+      "from": [1, 0, 1],
+      "to": [15, 16, 15],
+      "faces": {
+        "down":  { "texture": "#lava", "cullface": "down" },
+        "up":    { "texture": "#lava", "cullface": "up" },
+        "north": { "texture": "#lava" },
+        "south": { "texture": "#lava" },
+        "west":  { "texture": "#lava" },
+        "east":  { "texture": "#lava" }
+      }
+    }
+  ]
+}

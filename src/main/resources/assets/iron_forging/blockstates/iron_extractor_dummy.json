@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "part=frame_corner": {
+      "model": "iron_forging:block/iron_extractor_dummy_frame_corner"
+    },
+    "part=frame_beam": {
+      "model": "iron_forging:block/iron_extractor_dummy_frame_beam"
+    },
+    "part=glass_wall": {
+      "model": "iron_forging:block/iron_extractor_dummy_glass_wall"
+    },
+    "part=top_grate": {
+      "model": "iron_forging:block/iron_extractor_dummy_top_grate"
+    },
+    "part=lava_floor": {
+      "model": "iron_forging:block/iron_extractor_dummy_lava_floor"
+    },
+    "part=lava_pillar": {
+      "model": "iron_forging:block/iron_extractor_dummy_lava_pillar"
+    },
+    "part=lava_nozzle": {
+      "model": "iron_forging:block/iron_extractor_dummy_lava_nozzle"
+    },
+    "part=spawner": {
+      "model": "iron_forging:block/iron_extractor_dummy_spawner"
+    },
+    "part=golem_melting": {
+      "model": "iron_forging:block/iron_extractor_dummy_golem_melting"
+    },
+    "part=fire": {
+      "model": "iron_forging:block/iron_extractor_dummy_fire"
+    },
+    "part=mold": {
+      "model": "iron_forging:block/iron_extractor_dummy_mold"
+    },
+    "part=big_glass_z": {
+      "model": "iron_forging:block/iron_extractor_dummy_big_glass_z"
+    },
+    "part=big_glass_x": {
+      "model": "iron_forging:block/iron_extractor_dummy_big_glass_x"
+    },
+    "part=fuel_port": {
+      "model": "iron_forging:block/iron_extractor_dummy_fuel_port"
+    },
+    "part=output_port": {
+      "model": "iron_forging:block/iron_extractor_dummy_output_port"
+    }
+  }
+}
