@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "iron_forging:item/iron_extractor_core"
+  }
+}
