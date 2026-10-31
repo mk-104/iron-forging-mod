@@ -124,6 +124,9 @@ public class IronExtractorCoreBlockEntity extends BlockEntity implements Impleme
 
     @Override
     public boolean canTakeItemThroughFace(int slot, ItemStack stack, Direction side) {
+        if (slot == SLOT_FUEL) {
+            return side == Direction.UP && stack.is(Items.BUCKET);
+        }
         // 鉄インゴットおよびポピーの出力スロットのみ搬出可能（燃料は吸い出さない）
         return slot == SLOT_OUTPUT_IRON || slot == SLOT_OUTPUT_POPPY;
     }

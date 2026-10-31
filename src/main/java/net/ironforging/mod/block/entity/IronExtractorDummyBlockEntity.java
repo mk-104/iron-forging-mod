@@ -13,6 +13,7 @@ import net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket;
 import net.minecraft.world.WorldlyContainer;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.storage.ValueInput;
@@ -95,6 +96,9 @@ public class IronExtractorDummyBlockEntity extends BlockEntity implements Worldl
         DummyPart part = getPart();
         if (part == DummyPart.OUTPUT_PORT) {
             return slot == IronExtractorCoreBlockEntity.SLOT_OUTPUT_IRON || slot == IronExtractorCoreBlockEntity.SLOT_OUTPUT_POPPY;
+        }
+        if (part == DummyPart.FUEL_PORT) {
+            return slot == IronExtractorCoreBlockEntity.SLOT_FUEL && stack.is(Items.BUCKET);
         }
         return false;
     }
